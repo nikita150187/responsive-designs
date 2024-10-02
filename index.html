@@ -33,9 +33,12 @@
                 </div>
             </nav>
             <div class="right-section">
-                <div class="image">
-                <img src="images/Slider.png" alt="bowl with dessert">
-            </div>
+                <picture>
+                    <source media="(max-width:600px)" srcset="./images/sma.img">
+                    <source media="(min-width:601px) and (max-width:900px)" srcset="./images/medi.jpg">
+                    <img src="./images/Slider.png" alt="large img">
+                </picture>
+         
             </div>
         </div>
     </header> 
